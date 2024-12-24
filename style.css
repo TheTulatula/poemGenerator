@@ -1,8 +1,76 @@
 body {
-  background-color: #f5f1fe;
-
+  background-color: #fbf0f2;
   justify-content: center;
   align-items: center;
   margin: 30px;
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  background-color: #ef233c;
+  border-radius: 10px;
+  padding: 25px;
+  max-width: 600px;
+  margin: 120px auto;
+}
+h1 {
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 1.5;
+  color: #fbf0f2;
+  text-shadow: -2px 0px #5f0f13;
+}
+form {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 15px 0px;
+  width: 100%;
+}
+.textInput {
+  flex: 1;
+  width: 100%;
+  border: 0px;
+  border-radius: 5px;
+  border-left: 4px solid #5f0f13;
+  height: 25px;
+  opacity: 70%;
+  font-size: 16px;
+}
+.submitInput {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 0px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #5f0f13;
+  font-weight: 300;
+  background-color: #fbf0f2;
+  line-height: 1.5;
+}
+.poem {
+  background-color: #fbf0f2;
+  border-radius: 10px;
+  border-left: 4px solid #5f0f13;
+  padding: 25px;
+  line-height: 1.5;
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  color: #5f0f13;
+}
+footer {
+  font-size: 14px;
+}
+a {
+  color: rgb(244, 104, 53);
+}
+a:hover {
+  color: rgb(195, 9, 139);
 }
