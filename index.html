@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Poems</title>
     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
     <main>
       <h1>AI Poem Generator</h1>
 
-      <form>
+      <form id="poemGenerator">
         <input
           type="text"
           placeholder="  Type a topic to create a poem..."
@@ -21,7 +22,9 @@
         />
         <input type="submit" value=" Create " class="submitInput" />
       </form>
-      <div class="poem">The poem is here The poem is here The poem is here</div>
+      <div class="poem" id="poem">
+        The poem is here The poem is here The poem is here
+      </div>
     </main>
     <footer>
       <p>
