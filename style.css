@@ -39,6 +39,7 @@ form {
   height: 25px;
   opacity: 70%;
   font-size: 16px;
+  padding-left: 8px;
 }
 .submitInput {
   display: flex;
@@ -59,17 +60,25 @@ form {
   border-radius: 10px;
   border-left: 4px solid #5f0f13;
   padding: 25px;
-  line-height: 1.5;
+  line-height: 2;
   text-align: left;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 500;
+  font-style: oblique;
   color: #5f0f13;
+  letter-spacing: 0.4px;
+  text-shadow: -0.5px 0px #5f0f13;
+}
+strong {
+  color: #ef233c;
+  opacity: 90%;
 }
 footer {
   font-size: 14px;
 }
 a {
   color: rgb(244, 104, 53);
+  text-decoration: none;
 }
 a:hover {
   color: rgb(195, 9, 139);
