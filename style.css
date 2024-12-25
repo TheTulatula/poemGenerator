@@ -12,7 +12,7 @@ main {
   border-radius: 10px;
   padding: 25px;
   max-width: 600px;
-  margin: 120px auto;
+  margin: 120px auto 25px auto;
 }
 h1 {
   font-size: 36px;

@@ -23,10 +23,6 @@ function generatePoem(event) {
   poemElement.classList.remove("hidden");
   poemElement.innerHTML = `<div class="blink">Generating a poem about "${userPrompt.value}"...</div>`;
 
-  console.log("Generating poem");
-  console.log(`context:${context}`);
-  console.log(`prompt:${prompt}`);
-
   axios.get(apiUrl).then(displayPoem);
 }
 let peomFormElement = document.querySelector("#poemGenerator");
